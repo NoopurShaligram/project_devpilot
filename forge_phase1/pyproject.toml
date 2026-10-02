@@ -1,0 +1,20 @@
+[project]
+name = "forge-ai-advisor"
+version = "0.1.0"
+description = "Phase 1: AI-assisted software engineering workflow advisor"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "langgraph",
+  "langchain-core",
+  "langchain-openai",
+  "pydantic>=2",
+  "pydantic-settings",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]
+
+[project.scripts]
+forge = "forge_advisor.cli.main:main"

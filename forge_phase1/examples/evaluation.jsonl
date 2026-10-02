@@ -1,0 +1,10 @@
+{"task":"Explain why Python lists are mutable","expected_category":"explanation","expected_interface":"chat","expected_risk":"low"}
+{"task":"What is dependency injection in FastAPI?","expected_category":"explanation","expected_interface":"chat","expected_risk":"low"}
+{"task":"Debug the failing checkout endpoint and run pytest","expected_category":"debugging","expected_interface":"coding_agent","expected_risk":"medium"}
+{"task":"Rename this function to follow our naming convention","expected_category":"small_edit","expected_interface":"ide_agent","expected_risk":"medium"}
+{"task":"Add OAuth login to my FastAPI backend and write tests","expected_category":"feature","expected_interface":"coding_agent","expected_risk":"medium"}
+{"task":"Refactor the payment service into repository and service layers","expected_category":"refactor","expected_interface":"coding_agent","expected_risk":"medium"}
+{"task":"Create a pull request for the current branch","expected_category":"repository_operation","expected_interface":"ide_agent","expected_risk":"medium"}
+{"task":"Delete old customer records from PostgreSQL","expected_category":"data_operation","expected_interface":"coding_agent","expected_risk":"high"}
+{"task":"Run the production deployment for the API","expected_category":"production_operation","expected_interface":"coding_agent","expected_risk":"critical"}
+{"task":"Design a caching strategy for our API","expected_category":"planning","expected_interface":"chat","expected_risk":"low"}
