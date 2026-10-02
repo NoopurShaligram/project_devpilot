@@ -1,0 +1,11 @@
+# Ignore environment variables (security)
+.env
+.env.example
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build directories and dependencies
+/dist/
+node_modules/
